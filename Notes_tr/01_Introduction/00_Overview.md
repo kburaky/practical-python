@@ -1,18 +1,21 @@
-[Contents](../Contents.md) \| [Next (2 Working With Data)](../02_Working_with_data/00_Overview.md)
+[İçindekiler](../Contents_tr.md) \| [Next (2 Working With Data)](../02_Working_with_data/00_Overview_tr.md)
 
-## 1. Introduction to Python
+## 1. Python'a Giriş
 
-The goal of this first section is to introduce some Python basics from
-the ground up.  Starting with nothing, you'll learn how to edit, run,
-and debug small programs. Ultimately, you'll write a short script that
-reads a CSV data file and performs a simple calculation.
+Bu ilk bölümün amacı bazı Python bazı temellerini tanıtmaktır. Sıfırdan başlayıp, düzenlemeyi(edit), çalıştırmayı(run) ve ufak programlarda hata ayıklamayı(debug) öğreneceksin. Sonunda, bir CSV dosyasından veri okuyan ve basit hesaplamaları yapan bir script yazacaksın.
 
-* [1.1 Introducing Python](01_Python.md)
-* [1.2 A First Program](02_Hello_world.md)
-* [1.3 Numbers](03_Numbers.md)
-* [1.4 Strings](04_Strings.md)
-* [1.5 Lists](05_Lists.md)
-* [1.6 Files](06_Files.md)
-* [1.7 Functions](07_Functions.md)
+- [1.1 Python'a Giriş](01_Python_tr.md)
+- [1.2 İlk Program](02_Hello_world_tr.md)
+- [1.3 Sayıları](03_Numbers_tr.md)
+- [1.4 Stringler\*](04_Strings_tr.md)
+- [1.5 Listeler](05_Lists_tr.md)
+- [1.6 Dosyalar](06_Files_tr.md)
+- [1.7 Fonskiyonlar](07_Functions_tr.md)
 
-[Contents](../Contents.md) \| [Next (2 Working With Data)](../02_Working_with_data/00_Overview.md)
+[İçindekiler](../Contents_tr.md) \| [Sonraki (2 Data ile Çalışmak)](../02_Working_with_data/00_Overview_tr.md)
+
+---
+
+### Çeviri Notları
+
+- **Strings:** Karakter dizileri
