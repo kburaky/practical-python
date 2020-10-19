@@ -1,4 +1,4 @@
-[İçindekiler](../Contents_tr.md) \| [Next (2 Working With Data)](../02_Working_with_data/00_Overview_tr.md)
+[İçindekiler](../Contents_tr.md) \| [Sonraki (2 Data ile Çalışmak)](../02_Working_with_data/00_Overview_tr.md)
 
 ## 1. Python'a Giriş
 
@@ -16,6 +16,4 @@ Bu ilk bölümün amacı bazı Python bazı temellerini tanıtmaktır. Sıfırda
 
 ---
 
-### Çeviri Notları
-
-- **Strings:** Karakter dizileri
+**Strings:** Karakter dizileri
