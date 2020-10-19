@@ -72,9 +72,7 @@ Python'un interaktif modunu hesap makinesi olarak kullanarak, Mert'in eğer tüm
 >>>
 ```
 
-Pro-tip: Use the underscore (\_) variable to use the result of the last
-calculation. For example, how much profit does Larry make after his evil
-broker takes their 20% cut?
+Pro-tip: Son yapılan hesabın sonucunu getirmek için alt çizgiyi (\_) kullan. Örnek vermek gerekirse, şeytan borsacısı kendi %20 payını aldıktan sonra Mert ne kadar para kazanmış olurdu?
 
 ```python
 >>> _ * 0.80
@@ -82,39 +80,25 @@ broker takes their 20% cut?
 >>>
 ```
 
-### Exercise 1.2: Getting help
+### Egzersiz 1.2: Yardım alma
 
-Use the `help()` command to get help on the `abs()` function. Then use
-`help()` to get help on the `round()` function. Type `help()` just by
-itself with no value to enter the interactive help viewer.
+`abs()` fonksiyonunda yardım almak için `help()` komutunu kullan. Daha sonra `round()` fonksiyonu için bunu yap. İnteraktif yardım görüntüleyiciye giriş yapmak için herhangi bir değer vermeden kendi başına `help()` yaz.
 
-One caution with `help()` is that it doesn’t work for basic Python
-statements such as `for`, `if`, `while`, and so forth (i.e., if you type
-`help(for)` you’ll get a syntax error). You can try putting the help
-topic in quotes such as `help("for")` instead. If that doesn’t work,
-you’ll have to turn to an internet search.
+Bir ikaz olarak `help()` komutu `for`, `if`, `while` gibi basit Python ifadeleriyle çalışmaz. `help(for)` gibi bir ifade sözdizimi hatası verecektir. Bunun yerine `help("for")` şeklinde tırnak vererek kullanabilirsin. Eğer çalışmazsa, internet araması yapmak zorundasın.
 
-Followup: Go to <http://docs.python.org> and find the documentation for
-the `abs()` function (hint: it’s found under the library reference
-related to built-in functions).
+Takip Et: <http://docs.python.org> adresine git ve abs() fonksiyonu ile alakalı dökümantasyonu bul. (İpucu: )
 
-### Exercise 1.3: Cutting and Pasting
+and find the documentation for
+the `abs()` function (hint: built-in fonksiyonlar ile alakalı yerin altında bulunabilir.)
 
-This course is structured as a series of traditional web pages where
-you are encouraged to try interactive Python code samples **by typing
-them out by hand.** If you are learning Python for the first time,
-this "slow approach" is encouraged. You will get a better feel for
-the language by slowing down, typing things in, and thinking about
-what you are doing.
+### Egzersiz 1.3: Kesme ve Yapıştırma
 
-If you must "cut and paste" code samples, select code
-starting after the `>>>` prompt and going up to, but not any further
-than the first blank line or the next `>>>` prompt (whichever appears
-first). Select "copy" from the browser, go to the Python window, and
-select "paste" to copy it into the Python shell. To get the code to
-run, you may have to hit "Return" once after you’ve pasted it in.
+Bu kurs, bir dizi geleneksel web sayfası olarak yapılandırılmıştır. Python kod örneklerini **kendi ellerinle yazma** konusunda cesaretli ol. Python'u ilk kez öğreniyorsan,
+bu "yavaş yaklaşım" teşvik edilmektedir. Yavaşlayarak, bir şeyler yazarak ve ne yaptığını düşünerek daha iyi hissedeceksin.
 
-Use cut-and-paste to execute the Python statements in this session:
+Eğer "kes, yapıştır" yapman gerekiyorsa, `>>>` işaretinden sonraki kodu seçerek başla ve devam et, fakat ilk boş satıra kadar veya `>>>` işaretine kadar yapmalısın. Tarayıcından "kopyala" bölümünü seç, Python ekranına git ve yapıştır. Kodu çalıştırmak için "Return"e basman gerekebilir.
+
+Bu bölümde Python ifadelerini çalıştırmak için kes ve yapıştırı kullan.
 
 ```python
 >>> 12 + 20
@@ -133,9 +117,7 @@ Use cut-and-paste to execute the Python statements in this session:
 >>>
 ```
 
-Warning: It is never possible to paste more than one Python command
-(statements that appear after `>>>`) to the basic Python shell at a
-time. You have to paste each command one at a time.
+Dikkat: Basit Python shell'de birden fazla Python komutunu (`>>>` işaretinden sonra gelen ifadeler) aynı anda çalıştırmak mümkün değildir. Her seferde bir komutu yapıştırmak zorundasın.
 
 Now that you've done this, just remember that you will get more out of
 the class by typing in code slowly and thinking about it--not cut and pasting.
