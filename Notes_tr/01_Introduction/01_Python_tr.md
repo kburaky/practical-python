@@ -1,23 +1,24 @@
-[Contents](../Contents.md) \| [Next (1.2 A First Program)](02_Hello_world.md)
+[İçindekiler](../Contents_tr.md) \| [Sonraki (1.2 İlk Program)](02_Hello_world_tr.md)
 
 # 1.1 Python
 
 ### What is Python?
 
-Python is an interpreted high level programming language.  It is often classified as a
-["scripting language"](https://en.wikipedia.org/wiki/Scripting_language) and
-is considered similar to languages such as Perl, Tcl, or Ruby.  The syntax
-of Python is loosely inspired by elements of C programming.
+Python yorumlanan yüksek seviye bir programlama dilidir.
+Sıklıkla ["scripting dili"](https://en.wikipedia.org/wiki/Scripting_language) olarak
+sınıflandırılır ve Perl, Tcl veya Ruby gibi dillere benzer olarak görülür.
+Python'un sözdizimi gevşek bir şekilde C programlama öğelerinden esinlenmiştir.
 
-Python was created by Guido van Rossum around 1990 who named it in honor of Monty Python.
+Python, ismini Monty Python'dan alarak Guido van Rossum tarafından 1990 yılı cıvarinda yaratılmıştır.
 
-### Where to get Python?
+### Python nereden edinilir?
 
-[Python.org](https://www.python.org/) is where you obtain Python.  For the purposes of this course, you
-only need a basic installation.  I recommend installing Python 3.6 or newer. Python 3.6 is used in the notes
-and solutions.
+[Python.org](https://www.python.org/) Python'u elde edebileceğin yerdir.
+Bu kursta yapacakların için sadece basit bir kuruluma ihtiyacın var.
+Önerim Python 3.6 veya daha yeni bir versiyonunu kurman olacaktır.
+Notlar ve çözümlerde Python 3.6 kullanılmıştır.
 
-### Why was Python created?
+### Python neden yaratıldı?
 
 In the words of Python's creator:
 
@@ -31,12 +32,12 @@ In the words of Python's creator:
 >
 > - Guido van Rossum
 
-### Where is Python on my Machine?
+### Python makinemim neresinde?
 
+Python'u çalıştırabileceğin birçok environment olmasına rağmen,
+Python basitçe terminalde veya shell'de çalışan makinene kurulu bir programdır.
 Although there are many environments in which you might run Python,
-Python is typically installed on your machine as a program that runs
-from the terminal or command shell. From the terminal, you should be
-able to type `python` like this:
+Terminalde `python` yazdığında böyle bir çıktı elde etmen gerekir.
 
 ```
 bash $ python
@@ -48,26 +49,22 @@ hello world
 >>>
 ```
 
-If you are new to using the shell or a terminal, you should probably
-stop, finish a short tutorial on that first, and then return here.
+Eğer shell ve terminal'de yeniysen, muhtemelen durmalısın,
+bununla alakalı kısa bir eğitim bitirmeli ve buraya tekrar dönmelisin.
 
-Although there are many non-shell environments where you can code
-Python, you will be a stronger Python programmer if you are able to
-run, debug, and interact with Python at the terminal.  This is
-Python's native environment.  If you are able to use Python here, you
-will be able to use it everywhere else.
+Python kodu yazabileceğin shell olmayan bir sürü environment olmasına rağmen,
+eğer çalıştırma, hata ayıklama ve terminalde Python etkileşimlerine hakim olursan, güçlü bir Python programlayıcısı olacaksın.
+Bu Python'un doğal environmentıdır. Eğer burada Python kullanmaya hakim olursan, her yerde kullanmaya hakim olursun.
 
-## Exercises
+## Egzersizler
 
-### Exercise 1.1: Using Python as a Calculator
+### Egzersiz 1.1: Python'u Hesap Makinesi Olarak Kullanma
 
-On your machine, start Python and use it as a calulator to solve the
-following problem.
+Python'u makinende başlat ve onu bir hesap makinesi gibi kullanarak aşağıdaki problemi çöz.
 
-Lucky Larry bought 75 shares of Google stock at a price of $235.14 per
-share. Today, shares of Google are priced at $711.25. Using Python’s
-interactive mode as a calculator, figure out how much profit Larry would
-make if he sold all of his shares.
+Şanslı Mert hisse başına $235.14 ücretle 75 adet Google hissesi alıyor.
+Bugünse, Google hisseleri $711.25'dan işlem görmüş.
+Python'un interaktif modunu hesap makinesi olarak kullanarak, Mert'in eğer tüm hisselerini satarsa ne kadar kar edebileceğini hesapla.
 
 ```python
 >>> (711.25 - 235.14) * 75
@@ -106,7 +103,7 @@ related to built-in functions).
 This course is structured as a series of traditional web pages where
 you are encouraged to try interactive Python code samples **by typing
 them out by hand.** If you are learning Python for the first time,
-this "slow approach" is encouraged.  You will get a better feel for
+this "slow approach" is encouraged. You will get a better feel for
 the language by slowing down, typing things in, and thinking about
 what you are doing.
 
@@ -171,7 +168,7 @@ the predictions change.
 
 Note: This service only reports arrival times within the next 30 minutes.
 If you're in a different timezone and it happens to be 3am in Chicago, you
-might not get any output.  You use the tracker link above to double check.
+might not get any output. You use the tracker link above to double check.
 
 If the first import statement `import urllib.request` fails, you’re
 probably using Python 2. For this course, you need to make sure you’re
@@ -188,8 +185,7 @@ exercise work. For example:
 >>>
 ```
 
-If you can't make this work, don't worry about it.  The rest of this course
+If you can't make this work, don't worry about it. The rest of this course
 has nothing to do with parsing XML.
 
-[Contents](../Contents.md) \| [Next (1.2 A First Program)](02_Hello_world.md)
-
+[Contents](../Contents_tr.md) \| [Next (1.2 A First Program)](02_Hello_world_tr.md)
