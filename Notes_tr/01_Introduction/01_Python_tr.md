@@ -119,14 +119,13 @@ Bu bölümde Python ifadelerini çalıştırmak için kes ve yapıştırı kulla
 
 Dikkat: Basit Python shell'de birden fazla Python komutunu (`>>>` işaretinden sonra gelen ifadeler) aynı anda çalıştırmak mümkün değildir. Her seferde bir komutu yapıştırmak zorundasın.
 
-Now that you've done this, just remember that you will get more out of
-the class by typing in code slowly and thinking about it--not cut and pasting.
+Şimdi bunu yaptığına göre, kodu yavaşça yazarak ve onun hakkında düşünerek daha fazlasını elde edeceğini unutma. --kesip yapıştırarak değil.
 
-### Exercise 1.4: Where is My Bus?
+### Egzersiz 1.4: Otobüsüm nerede?
 
-Try something more advanced and type these statements to find out how
-long people waiting on the corner of Clark street and Balmoral in
-Chicago will have to wait for the next northbound CTA \#22 bus:
+Şimdi daha ileri düzey bir şey deneyelim ve Bursa Görükle Yerleşim durağında bekleyen insanların bir sonraki üniversiteye giden otobüsün ne kadar beklemesi gerektiğini öğrenmek için bu ifadeleri yazalım:
+
+> ÇN: Yerelleştirme yapıyorum ama siz yine de aşağıdaki kodun Şikago'da bir otobüs durağı olduğunu bilin :)
 
 ```python
 >>> import urllib.request
@@ -142,24 +141,16 @@ Chicago will have to wait for the next northbound CTA \#22 bus:
 >>>
 ```
 
-Yes, you just downloaded a web page, parsed an XML document, and
-extracted some useful information in about 6 lines of code. The data
-you accessed is actually feeding the website
-<http://ctabustracker.com/bustime/home.jsp>. Try it again and watch
-the predictions change.
+Evet, daha demin bir web sayfası indirdin, bir XML dosyası parse\* ettin ve 6 satır kodda işe yarar bir bilgi çıkarttın.
+Ulaştığın veri aslında <http://ctabustracker.com/bustime/home.jsp> adresini beslemekte. Yeniden dene ve tahminlerin değiştiğini izle.
 
-Note: This service only reports arrival times within the next 30 minutes.
-If you're in a different timezone and it happens to be 3am in Chicago, you
-might not get any output. You use the tracker link above to double check.
+Not: Bu servis sadece sonraki yarım saatin ulaşım bilgilerini raporlar. Eğer farklı bir zaman dilimindeysen (timezone) bir sonuç alamayabilirsin. Aşağıdaki takip linkinden çifte kontrol yapabilirsin.
 
-If the first import statement `import urllib.request` fails, you’re
-probably using Python 2. For this course, you need to make sure you’re
-using Python 3.6 or newer. Go to <https://www.python.org> to download
-it if you need it.
+Eğer ilk import ifadesi `import urllib.request` hata verdiyse, muhtemelen Python 2 kullanıyorsun. Bu kurs için Python 3.6 veya daha üst bir sürümü kullandığından emin ol. Eğer ihtiyacın olursa <https://www.python.org> adresinden edinebilirsin.
 
-If your work environment requires the use of an HTTP proxy server, you may need
-to set the `HTTP_PROXY` environment variable to make this part of the
-exercise work. For example:
+Eğer environment'ın HTTP proxy server kullanmanı gerektiriyorsa, bu egzersiz için `HTTP_PROXY` environment değerini ayarlaman gerekebilir.
+
+Örnek:
 
 ```python
 >>> import os
@@ -167,7 +158,8 @@ exercise work. For example:
 >>>
 ```
 
-If you can't make this work, don't worry about it. The rest of this course
-has nothing to do with parsing XML.
+Eğer bunu yapamıyorsan, merak etme. Kursun geri kalanında XML parse etmek ile alakalı bir şey olmayacak
 
-[Contents](../Contents_tr.md) \| [Next (1.2 A First Program)](02_Hello_world_tr.md)
+[İçindekiler](../Contents_tr.md) \| [Sonraki (1.2 İlk Program)](02_Hello_world_tr.md)
+
+**Parse**: Ayrıştırmak, fakat programlada parse etmek çok yayın kullanılan bir tabirdir. Genellikle bir veriyi anlamlandırılabilir şekilde bir yere aktarmak için kullanılır.
