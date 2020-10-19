@@ -1,9 +1,8 @@
-[Contents](../Contents.md) \| [Previous (1.1 Python)](01_Python.md) \| [Next (1.3 Numbers)](03_Numbers.md)
+[İçindekiler](../Contents_tr.md) \| [Önceki (1.1 Python)](01_Python_tr.md) \| [Sonraki (1.3 Sayılar)](03_Numbers_tr.md)
 
-# 1.2 A First Program
+# 1.2 İlk Program
 
-This section discusses the creation of your first program, running the
-interpreter, and some basic debugging.
+This section discusses the creation of your first program, running the  interpreter, and some basic debugging.
 
 ### Running Python
 
@@ -474,4 +473,4 @@ an identifying filename and line number.
 - Fix the error
 - Run the program successfully
 
-[Contents](../Contents.md) \| [Previous (1.1 Python)](01_Python.md) \| [Next (1.3 Numbers)](03_Numbers.md)
+[Contents](../Contents_tr.md) \| [Previous (1.1 Python)](01_Python_tr.md) \| [Next (1.3 Numbers)](03_Numbers_tr.md)
