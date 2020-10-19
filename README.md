@@ -2,7 +2,7 @@
 
 Yaklaşık 25 yıl önce ilk Python öğrendiğimde, her türden dağınık işe bunu nasıl verimli bir şekilde uygulayabileceğim konusunda beni çok etkilemişti. Aynı neşeyle hızla geçen on yılda kendimi başkalarını eğitirken buldum. Bu öğretimin de sonucu bu kurstur aslında. Bu Python dersleri 2007'den beri yüzyüze gruplar halinde 400'den fazla kişiye aktif olarak öğretiliyor.
 
-Tüccarlar, sistem yöneticileri, gökbilimciler, tamirciler ve hatta Python'u kullanarak birkaç Mars'a araç indiren birkaç yüz roket bilimcisi hepsi bu kursu aldı. Şimdi ben Creative Commons lisansı altında bunu kullanıma sunmaktan memnuniyet duyuyprum. İyi eğlenceler!
+Tüccarlar, sistem yöneticileri, gökbilimciler, tamirciler ve hatta Python'u kullanarak birkaç Mars'a araç indiren birkaç yüz roket bilimcisi hepsi bu kursu aldı. Şimdi ben Creative Commons lisansı altında bunu kullanıma sunmaktan memnuniyet duyuyorum. İyi eğlenceler!
 
 [GitHub Pages](https://dabeaz-course.github.io/practical-python) | [GitHub Repo](https://github.com/dabeaz-course/practical-python).
 
