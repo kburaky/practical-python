@@ -8,33 +8,17 @@ Tüccarlar, sistem yöneticileri, gökbilimciler, tamirciler ve hatta Python'u k
 
 --David Beazley ([https://dabeaz.com](https://dabeaz.com)), [@dabeaz](https://twitter.com/dabeaz)
 
-## Bu nedir?
+## Nedir bu?
 
-The material you see here is the heart of an instructor-led Python
-training course used for corporate training and professional
-development. It has been in continual development since 2007 and
-battle tested in real-world classrooms. Usually, it's taught
-in-person over the span of three or four days--requiring approximately
-25-35 hours of intense work. This includes the completion of
-approximately 130 hands-on coding exercises.
+Burada gördüğünüz materyal kurumsal eğitim ve profesyonel geliştirme için kullanılan, eğitmen önderliğinde bir Python eğitimin kursunun kalbidir. 2007'den beri gelişmeye devam eden ve gerçek-dünya sınıflarında test edilmektedir. Genellikle, üç veya dört gün boyunca yüz yüze yaklaşık olarak 25-35 saat yoğun çalışma ile eğitim verilmektedir. Bu eğitim yaklaşık 130 uygulamalı kodlama alıştırmasının tamamlanmasını içermektedir.
 
 ## Hedef Kitle
 
-Students of this course are usually professional scientists,
-engineers, and programmers who already have experience in at least one
-other programming language. No prior knowledge of Python is required,
-but knowledge of common programming topics is assumed. Most
-participants find the course challenging--even if they've already been
-doing a bit of Python programming.
+Bu kurstaki öğrenciler genellikle profesyonel bilim insanları, mühendisler ve hali hazırda en azından bir programlama dilinde tecrübesi olan yazılımcılardır. Python için ön bilgiye ihtiyaç yoktur fakat genel programlama konularına hakimiyet beklenmektedir. Çoğu katılımcı biraz Python programlama konularında bilgisi olmalarına rağmen bu kursu zorlayıcı bulmaktadır.
 
-## Course Objectives
+## Kurs Hedefleri
 
-The goal of this course is to cover foundational aspects of Python
-programming with an emphasis on script writing, data manipulation, and
-program organization. By the end of this course, students should be
-able to start writing useful Python programs on their own or be able
-to understand and modify Python code written by their
-coworkers.
+Bu dersin amacı script yazma, veri işleme ve program organizasyonu gibi Python'un temel yönlerini ele almaktır. Bu kursun sonunda öğrenciler kendi başlarına yararlı Python programları yazmaya veya iş arkadaşlarının kodlarını anlamaya ve değiştirmeye başlayabilir.
 
 ## Gereklilikler
 
@@ -42,18 +26,15 @@ Bu kursu tamamlamak için, basitçe Python 3.6 veya daha yeni bir versiyonun kur
 
 ## Bu kurs ne değildir?
 
-This is not a course for absolute beginners on how to program a
-computer. It is assumed that you already have programming experience
-in some other programming language or Python itself.
+Bu kurs bilgisayar programlama kısmında tamamen başlangıç seviyesinde olanlar için değildir. Hali hazırda bir programlama dilinde tecrübeniz olduğu veya Python'un kendisinde bir bilginiz olduğu varsayılır. Bu, web geliştirme üzerine bir kurs değildir. O farklı
+bir sirk. Ancak, bu sirke takılırsanız, yine de bazı ilginç eylemler göreceksiniz. (hayvanları içeren hiçbir şey yok)
 
-This is not a course on web development. That's a different
-circus. However, if you stick around for this circus, you'll still see
-some interesting acts--just nothing involving animals.
+_yazar burada bir deyim kullanmış aynı şekilde bırakıyorum :)_
 
-This is not a course for software engineers on how to write or
-maintain a one-million line Python application. I don't write programs
-like that, nor do most companies who use Python, and neither should
-you. Delete something already!
+Bu kurs nasıl milyonlarca satırlı Python uygulaması yazılır üzerinde duran yazılım mühendisleri için de değil. Ben bu tarz programlar yazmıyorum, çoğu Python kullanan şirket de yapmaz ve sen de böyle yapmamalısın. Şimdiden bir şeyi silin!
+
+> ÇN: Tam bir karşılık bulamadım.
+> I don't write programs like that, nor do most companies who use Python, and neither should you. Delete something already!
 
 ## Beni kursa ışınla!
 
@@ -61,62 +42,50 @@ Tamam, tamam. Fare'ni buraya getir [Buraya](Notes_tr/Contents_tr.md)!
 
 ## Community Discussion
 
-Want to discuss the course? You can join the conversation on
-[Gitter](https://gitter.im/dabeaz-course/practical-python). I can't
-promise an individual response, but perhaps others can jump in to help.
+Bu kurs hakkında tartışmak mı istiyorsun? [Gitter](https://gitter.im/dabeaz-course/practical-python)'da konuşmaya katılabilirsin. Kişisel olarak cevap vereceğime söz veremem ama muhtemelen birileri yardım etmek için atlayacaktır.
 
-## Acknowledgements
+## Teşekkür
 
-Llorenç Muntaner was instrumental in converting the course content from
-Apple Keynote to the online structure that you see here.
+Llorenç Muntaner, bu ders içeriğinin Apple Keynote'unu burada gördüğünüz çevrimiçi yapıya dönüştürdü.
 
-Various instructors have presented this course at one time or another
-over the last 12 years. This includes (in alphabetical order): Ned
+Birçok eğitmen bu kursun son 12 yılda zaman zaman sunumunu yapmıştır. Eğitmenler (alfabetik sırayla): Ned
 Batchelder, Juan Pablo Claude, Mark Fenner, Michael Foord, Matt
 Harrison, Raymond Hettinger, Daniel Klein, Travis Oliphant, James
 Powell, Michael Selik, Hugo Shi, Ian Stokes-Rees, Yarko Tymciurak,
 Bryan Van de ven, Peter Wang, and Mark Wiebe.
 
-I'd also like to thank the thousands of students who have taken this
-course and contributed to its success with their feedback and
-discussion.
+Ayrıca bu kursu alan binlerce öğrenciye, onların geribildirimleri ve tartışmalarıyla yaptığı katkılara teşekkür ederim.
 
 ## Soru, Cevaplar
 
-### Q: İzleyebileceğim kurs videoları var mı?
+### S: İzleyebileceğim kurs videoları var mı?
 
 Hayır. Bu kurs senin Python kodu yazman ile alakalı, başka birisini izlemen değil.
 
-### Q: Bu kurs nasıl lisanslandı?
+### S: Bu kurs nasıl lisanslandı?
 
-PratiK Pyhon Programlama Creative Commons Attribution ShareAlike 4.0 International License koruması altındadır.
+Pratik Pyhon Programlama, Creative Commons Attribution ShareAlike 4.0 International License koruması altındadır.
 
-### Q: Bu kurs materyalini kendi vereceğim Python kursu için kullanabilir miyim?
+### S: Bu kurs materyalini kendi vereceğim Python kursu için kullanabilir miyim?
 
 Evet, uygun atıf verildiği sürece.
 
-### Q: Türev çalışmalar yapabilir miyim?
+### S: Türev çalışmalar yapabilir miyim?
 
 Evet, bu tür çalışmalar aynı lisans koşullarını taşıdığı ve atıf sağladığı sürece.
 
-### Q: Başka bir dile tercüme edebilir miyim?
+### S: Başka bir dile tercüme edebilir miyim?
 
 Evet, harika olurdu. Tamamladığında bana linkini gönder.
 
-### Q: Kurs içeriğinden canlı yayın veya video yapabilir miyim?
+### S: Kurs içeriğinden canlı yayın veya video yapabilir miyim?
 
 Evet, kesinlikle! Muhtemelen bunu yaparken Python programlama ile alakalı çok şey öğrenceksin.
 
-### Q: "X" konusu neden yok?
+### S: "X" konusu neden yok?
 
-There is only so much material that you can cover in 3-4 days. If
-it wasn't covered, it was probably because it was once covered and it
-caused everyone's head to explode or there was never enough time to
-cover it in the first place. Also, this is a course, not a Python
-reference manual.
+Sadece 3-4 günde kavrayabileceğin kadar çok malzeme var. Eğer o konu yoksa ya daha önceden eklenmişti ve herkesin kafasının patlamasına neden oldu ya da onu öncelikli olarak eklemek için yeterli zaman yoktu. Ayrıca bu bir kurs Python kılavuzu değil :)
 
-### Q: Pull Request kabul ediyor musunuz?
+### S: Pull Request kabul ediyor musunuz?
 
-Bug reports are appreciated and may be filed through the
-[issue tracker](https://github.com/dabeaz-course/practical-python/issues).
-Pull requests are not accepted except by invitation. Please file an issue first.
+Hata raporları takdir edilmektedir ve [issue tracker](https://github.com/dabeaz-course/practical-python/issues) yoluyla dosyalanabilir. Davet dışında pull requestler kabul edilmez.Lütfen önce bir sorun bildirin.
